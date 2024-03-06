@@ -262,10 +262,6 @@ animation-delay: 2s;
     from{
         transform: translateX(300px) rotate(-360deg);
     }
-
-
-
-
 }
 
 
@@ -1624,7 +1620,19 @@ form{
 }
 
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:600) {
+    body{
+        font-size: 12px;
+        font-family: sans-serif;
+        /* background-color: black; */
+        overflow-x: hidden;
+        padding: 0%;
+        margin: 0%;
+        border: 0px;
+        overflow-x: hidden;
+    
+    
+    }
     #navi{
         width: 100%;
         gap: 1px;
